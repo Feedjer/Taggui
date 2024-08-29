@@ -1,0 +1,46 @@
+##########################################################################
+#
+# PINOKIO_SCRIPT_DEFAULT
+# If this variable is false, 'default': true menu items in pinokio.js
+# will NOT automatically run
+#
+##########################################################################
+PINOKIO_SCRIPT_DEFAULT=true
+
+##########################################################################
+#
+# GRADIO_TEMP_DIR
+# All the files uploaded through gradio goes here.
+#
+# Delete this line to store the files under PINOKIO_HOME/cache/GRADIO_TEMPDIR
+# or change the path if you want to use a different path
+#
+##########################################################################
+GRADIO_TEMP_DIR=./cache/GRADIO_TEMP_DIR
+
+##########################################################################
+#
+# HF_HOME
+#
+# Huggingface cache
+# All the model files automatically downloaded through libraries like
+# diffusers, transformers, etc. will be stored under this path
+#
+# You can save disk space by deleting this line, which will store all
+# huggingface files under PINOKIO_HOME/cache/HF_HOME without redundancy.
+#
+##########################################################################
+HF_HOME=./cache/HF_HOME
+
+##########################################################################
+#
+# TORCH_HOME
+#
+# Torch hub cache
+# All the files automatically downloaded by pytorch will be stored here
+#
+# You can save disk space by deleting this line, which will store all
+# torch hub files under PINOKIO_HOME/cache/TORCH_HOME without redundancy.
+#
+##########################################################################
+TORCH_HOME=./cache/TORCH_HOME
